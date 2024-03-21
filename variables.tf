@@ -503,9 +503,3 @@ variable "analyzer_name" {
   description = "The name for the IAM Access Analyzer resource to be created."
   default     = "default-analyer"
 }
-
-variable "metric_unauthorizedapicalls" {
-  description = "This is whether the value should be either 1 or 2 amount regarding UnauthorizedAPICalls"
-  type        = bool
-  default     = true
-}
