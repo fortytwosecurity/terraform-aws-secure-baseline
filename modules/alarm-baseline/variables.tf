@@ -100,7 +100,7 @@ variable "tags" {
 }
 
 variable "metric_unauthorizedapicalls" {
-  description = "This is whether the value should be either 1 or 2 amount regarding UnauthorizedAPICalls"
+  description = "(True/False) controls severity level (1 or 2 calls) for triggering `UnauthorizedAPICalls` alarm"
   type        = bool
   default     = true
 }
